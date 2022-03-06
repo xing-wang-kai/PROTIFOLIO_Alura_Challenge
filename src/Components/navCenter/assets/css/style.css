@@ -1,0 +1,144 @@
+.body_container-center {
+  width: 62%;
+  margin-left: 0px;
+}
+
+.body-center {
+  background-color: #6BD1FF;
+  width: 90%;
+  height: 366px;
+  border-radius: 8px;
+  padding: 2%;
+}
+
+.body-card {
+  width: 98%;
+  height: 302px;
+  margin: auto;
+  background-color: #141414;
+  margin-top: 4%;
+  border-radius: 8px;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
+  padding: 2px;
+}
+
+.body_text-corpo {
+  margin: 10px;
+}
+
+.escolhared[type=radio]::after {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+}
+
+.body_text-corpo {
+  border: none;
+}
+
+.body_text-corpo label::after {
+  top: 30px;
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  border: 6px solid rgba(0, 0, 0, 0);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.body_text-corpo label:hover::after {
+  border: 6px solid rgba(0, 0, 0, 0.1);
+}
+
+label[for=green]::after {
+  background-color: #27C93F;
+  left: 0;
+}
+
+label[for=red]::after {
+  background-color: #FF5F56;
+  left: 60px;
+}
+
+label[for=yellow]::after {
+  background-color: #FFBD2E;
+  left: 120px;
+}
+
+.body_text-corpo input:checked + label::after {
+  border: 6px solid rgba(0, 0, 0, 0.3);
+}
+
+.body_text-corpo input[type=radio] {
+  display: none;
+}
+
+.body_text-corpo input:not(:checked) + label img {
+  display: none;
+}
+
+.body_textarea--valor {
+  width: 100%;
+  background-color: #141414;
+  border: none;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  margin: 24px 0px;
+}
+
+.body_textarea {
+  border: none;
+}
+
+.body_botao {
+  width: 94%;
+  height: 56px;
+  margin-top: 5%;
+  background: rgba(80, 129, 251, 0.08);
+  border-radius: 8px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  transition: 2s;
+}
+
+.body_botao:hover {
+  transition: 2s;
+  background: #0048ffd8;
+}
+
+@media (max-width: 1100px) {
+  .body-center {
+    margin: auto;
+    width: 100%;
+  }
+
+  .body_container-center {
+    margin: auto;
+    width: 80%;
+  }
+
+  .body_botao {
+    width: 104%;
+    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
